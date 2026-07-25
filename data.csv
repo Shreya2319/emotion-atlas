@@ -1,0 +1,25 @@
+emotion_name,image_filename,image_folder,short_description,connected_emotions
+AMBITIOUS,,AMBITIOUS,"A driven desire to achieve success, status, or a meaningful goal.",Determination;Motivation;Optimistic
+ANGUISH,,ANGUISH,Intense emotional or physical suffering and distress.,Grief;Helplessness;Panic
+AWE,,AWE,Wonder and reverence in the face of something vast or sublime.,Gratitude;Excitement;Joy
+BOREDOM,,BOREDOM,Restless dissatisfaction from a lack of stimulation or meaning.,Numb;Helplessness
+CARING,,CARING,Warm concern and attentiveness toward another's wellbeing.,Kindness;Love;Kindhearted
+DETERMINATION,,DETERMINATION,Firm resolve to pursue a goal despite obstacles.,Motivation;Ambitious;Optimistic
+EXCITEMENT,,EXCITEMENT,Heightened energy and eager anticipation of something.,Joy;Happiness;Motivation
+FEAR,,FEAR,An alarmed response to a perceived danger or threat.,Panic;Anguish;Helplessness
+FURY,,FURY,"Intense, explosive anger.",Jealous;Anguish;Panic
+GRATITUDE,,GRATITUDE,Thankful appreciation for what one has received.,Joy;Love;Kindness
+GUILT,,GUILT,Remorseful unease over a wrong done or a duty unmet.,Anguish;Grief;Helplessness
+HAPPINESS,,HAPPINESS,A contented sense of wellbeing and pleasure.,Joy;Gratitude;Excitement
+HELPLESSNESS,,HELPLESSNESS,The powerless feeling of being unable to change one's situation.,Fear;Anguish;Numb
+INTERESTING,,INTERESTING,Curious engagement drawn toward something novel or intriguing.,Excitement;Awe;Motivation
+JEALOUS,,JEALOUS,Insecure fear of losing someone or something to a rival.,Fury;Fear;Longing
+KINDHEARTED,,KINDHEARTED,"A gentle, generous disposition toward others.",Kindness;Caring;Love
+KINDNESS,,KINDNESS,"Friendly, considerate generosity toward others.",Caring;Kindhearted;Gratitude
+LONGING,,LONGING,A yearning ache for someone or something absent.,Grief;Love;Loss
+LOVE,,LOVE,Deep affection and attachment toward someone or something.,Caring;Gratitude;Longing
+MOTIVATION,,MOTIVATION,The inner drive that moves one toward action or a goal.,Determination;Ambitious;Optimistic
+NUMB,,NUMB,An emotional flatness or absence of feeling.,Grief;Boredom;Helplessness
+OPTIMISTIC,,OPTIMISTIC,Hopeful confidence that things will turn out well.,Joy;Motivation;Gratitude
+PANIC,,PANIC,"Sudden, overwhelming fear that disrupts clear thinking.",Fear;Anguish;Helplessness
+TRUST,,TRUST,Confident reliance on someone or something's integrity.,Love;Caring;Gratitude

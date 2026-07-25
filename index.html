@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emotion Atlas — A visual map of human emotion</title>
+  <meta name="description" content="Emotion Atlas is a visual encyclopaedia of human emotion — each feeling given a name, a place, and a set of connections." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img class="brand-logo" src="brand/logo-globe.png" alt="" /> Emotion Atlas</a>
+      <nav class="nav-links">
+        <a href="#journey">Journey</a>
+        <a href="#emotions">Emotions</a>
+        <a href="#guides">Free Guides</a>
+        <a href="#workbooks">Workbooks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap">
+        <img class="hero-globe" src="brand/logo-globe.png" alt="Atlas of Emotions — every feeling has a place" />
+        <p class="eyebrow">A visual encyclopaedia of feeling</p>
+        <h1>Every emotion has a name and a place.</h1>
+        <p class="lede">
+          Emotion Atlas maps human emotion the way a field guide maps the natural world —
+          with precision, depth, and calm. Explore each feeling, see how it connects to others,
+          and learn to experience it without being consumed by it.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn--primary" href="#emotions">Explore the atlas</a>
+          <a class="btn btn--ghost" href="#journey">The journey within</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Journey Within — introduction arc -->
+    <section class="section journey" id="journey">
+      <div class="wrap">
+        <div class="section-head section-head--center">
+          <p class="eyebrow">From reaction to enlightenment</p>
+          <h2>The Journey Within</h2>
+          <p>Every feeling moves through five stages. You don't suppress emotions — you outgrow their control.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step-card">
+            <span class="step-num">1</span>
+            <img src="brand/feel.png" alt="Feel — allow yourself to experience what's within" loading="lazy" />
+            <div class="step-body">
+              <h3>Feel</h3>
+              <p>Allow yourself to experience what's within. Every emotion is a message, not a mistake.</p>
+            </div>
+          </li>
+          <li class="step-card">
+            <span class="step-num">2</span>
+            <img src="brand/observe.png" alt="Observe — watch your thoughts without judgment" loading="lazy" />
+            <div class="step-body">
+              <h3>Observe</h3>
+              <p>Step back. Watch your thoughts and emotions without judgment. Observation creates space between you and the storm.</p>
+            </div>
+          </li>
+          <li class="step-card">
+            <span class="step-num">3</span>
+            <img src="brand/understand.png" alt="Understand — seek the why behind what you feel" loading="lazy" />
+            <div class="step-body">
+              <h3>Understand</h3>
+              <p>Seek the why behind what you feel. Understanding brings clarity, and clarity creates choice.</p>
+            </div>
+          </li>
+          <li class="step-card">
+            <span class="step-num">4</span>
+            <img src="brand/grow.png" alt="Grow — use what you've learned to evolve" loading="lazy" />
+            <div class="step-body">
+              <h3>Grow</h3>
+              <p>Use what you've learned to evolve. Growth happens when you choose healing over habit.</p>
+            </div>
+          </li>
+          <li class="step-card">
+            <span class="step-num">5</span>
+            <img src="brand/detach.png" alt="Detach — release what no longer serves you" loading="lazy" />
+            <div class="step-body">
+              <h3>Detach</h3>
+              <p>Release what no longer serves you. Detachment isn't coldness, it's freedom. You can feel, without losing yourself.</p>
+            </div>
+          </li>
+        </ol>
+
+        <figure class="journey-full">
+          <img src="brand/journey.png" alt="The Journey Within — from reaction to enlightenment: Feel, Observe, Understand, Grow, Detach" loading="lazy" />
+          <figcaption>Emotions are temporary. Awareness is power. Detachment is freedom.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Emotion grid -->
+    <section class="section" id="emotions">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>The Atlas</h2>
+          <p><span id="emotion-count">—</span> emotions mapped, and growing. Tap any feeling to explore it.</p>
+        </div>
+        <div class="emotion-grid" id="emotion-grid"></div>
+      </div>
+    </section>
+
+    <!-- Free guides -->
+    <section class="section" id="guides" style="background: var(--surface-2);">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Free Guides</h2>
+          <p>Starter resources for mapping your own emotional landscape. Free to download.</p>
+        </div>
+        <div class="guides" id="guides"></div>
+      </div>
+    </section>
+
+    <!-- Workbooks coming soon -->
+    <section class="section" id="workbooks">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Workbooks — Coming Soon</h2>
+          <p>Guided workbooks to move through each emotion: experience it, acknowledge it, and gently detach.</p>
+        </div>
+        <div class="workbooks">
+          <div class="workbook-card">
+            <span class="ph-tag">Coming Soon</span>
+            <span class="ph-title">Workbook One</span>
+            <div><div class="ph-line"></div><div class="ph-line short" style="margin-top:10px;"></div></div>
+          </div>
+          <div class="workbook-card">
+            <span class="ph-tag">Coming Soon</span>
+            <span class="ph-title">Workbook Two</span>
+            <div><div class="ph-line"></div><div class="ph-line short" style="margin-top:10px;"></div></div>
+          </div>
+          <div class="workbook-card">
+            <span class="ph-tag">Coming Soon</span>
+            <span class="ph-title">Workbook Three</span>
+            <div><div class="ph-line"></div><div class="ph-line short" style="margin-top:10px;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Emotion Atlas</span>
+      <span>Every feeling has a place.</span>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    initHome();
+  </script>
+</body>
+</html>

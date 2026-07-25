@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emotion — Emotion Atlas</title>
+  <meta name="description" content="Explore this emotion in the Emotion Atlas — imagery, meaning, and its connections to other feelings." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img class="brand-logo" src="brand/logo-globe.png" alt="" /> Emotion Atlas</a>
+      <nav class="nav-links">
+        <a href="index.html#emotions">Emotions</a>
+        <a href="index.html#guides">Free Guides</a>
+        <a href="index.html#workbooks">Workbooks</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap detail-root" id="detail-root">
+      <p class="notice">Loading…</p>
+    </div>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="lb-btn lb-close" aria-label="Close">✕</button>
+    <button class="lb-btn lb-prev" aria-label="Previous image">‹</button>
+    <img id="lightbox-img" src="" alt="" />
+    <button class="lb-btn lb-next" aria-label="Next image">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Emotion Atlas</span>
+      <span>Every feeling has a place.</span>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    initDetail();
+  </script>
+</body>
+</html>
