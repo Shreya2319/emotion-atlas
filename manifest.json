@@ -3,6 +3,7 @@
     {
       "name": "AMBITIOUS",
       "folder": "AMBITIOUS",
+      "slug": "ambitious",
       "description": "A driven desire to achieve success, status, or a meaningful goal.",
       "connected": [
         "Determination",
@@ -25,21 +26,25 @@
       "connectedResolved": [
         {
           "label": "Determination",
-          "folder": "DETERMINATION"
+          "folder": "DETERMINATION",
+          "slug": "determination"
         },
         {
           "label": "Motivation",
-          "folder": "MOTIVATION"
+          "folder": "MOTIVATION",
+          "slug": "motivation"
         },
         {
           "label": "Optimistic",
-          "folder": "OPTIMISTIC"
+          "folder": "OPTIMISTIC",
+          "slug": "optimistic"
         }
       ]
     },
     {
       "name": "ANGUISH",
       "folder": "ANGUISH",
+      "slug": "anguish",
       "description": "Intense emotional or physical suffering and distress.",
       "connected": [
         "Grief",
@@ -62,21 +67,25 @@
       "connectedResolved": [
         {
           "label": "Grief",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Helplessness",
-          "folder": "HELPLESSNESS"
+          "folder": "HELPLESSNESS",
+          "slug": "helplessness"
         },
         {
           "label": "Panic",
-          "folder": "PANIC"
+          "folder": "PANIC",
+          "slug": "panic"
         }
       ]
     },
     {
       "name": "AWE",
       "folder": "AWE",
+      "slug": "awe",
       "description": "Wonder and reverence in the face of something vast or sublime.",
       "connected": [
         "Gratitude",
@@ -99,21 +108,25 @@
       "connectedResolved": [
         {
           "label": "Gratitude",
-          "folder": "GRATITUDE"
+          "folder": "GRATITUDE",
+          "slug": "gratitude"
         },
         {
           "label": "Excitement",
-          "folder": "EXCITEMENT"
+          "folder": "EXCITEMENT",
+          "slug": "excitement"
         },
         {
           "label": "Joy",
-          "folder": null
+          "folder": null,
+          "slug": null
         }
       ]
     },
     {
       "name": "BOREDOM",
       "folder": "BOREDOM",
+      "slug": "boredom",
       "description": "Restless dissatisfaction from a lack of stimulation or meaning.",
       "connected": [
         "Numb",
@@ -135,17 +148,20 @@
       "connectedResolved": [
         {
           "label": "Numb",
-          "folder": "NUMB"
+          "folder": "NUMB",
+          "slug": "numb"
         },
         {
           "label": "Helplessness",
-          "folder": "HELPLESSNESS"
+          "folder": "HELPLESSNESS",
+          "slug": "helplessness"
         }
       ]
     },
     {
       "name": "CARING",
       "folder": "CARING",
+      "slug": "caring",
       "description": "Warm concern and attentiveness toward another's wellbeing.",
       "connected": [
         "Kindness",
@@ -169,21 +185,25 @@
       "connectedResolved": [
         {
           "label": "Kindness",
-          "folder": "KINDNESS"
+          "folder": "KINDNESS",
+          "slug": "kindness"
         },
         {
           "label": "Love",
-          "folder": "LOVE"
+          "folder": "LOVE",
+          "slug": "love"
         },
         {
           "label": "Kindhearted",
-          "folder": "KINDHEARTED"
+          "folder": "KINDHEARTED",
+          "slug": "kindhearted"
         }
       ]
     },
     {
       "name": "DETERMINATION",
       "folder": "DETERMINATION",
+      "slug": "determination",
       "description": "Firm resolve to pursue a goal despite obstacles.",
       "connected": [
         "Motivation",
@@ -206,21 +226,25 @@
       "connectedResolved": [
         {
           "label": "Motivation",
-          "folder": "MOTIVATION"
+          "folder": "MOTIVATION",
+          "slug": "motivation"
         },
         {
           "label": "Ambitious",
-          "folder": "AMBITIOUS"
+          "folder": "AMBITIOUS",
+          "slug": "ambitious"
         },
         {
           "label": "Optimistic",
-          "folder": "OPTIMISTIC"
+          "folder": "OPTIMISTIC",
+          "slug": "optimistic"
         }
       ]
     },
     {
       "name": "EXCITEMENT",
       "folder": "EXCITEMENT",
+      "slug": "excitement",
       "description": "Heightened energy and eager anticipation of something.",
       "connected": [
         "Joy",
@@ -243,21 +267,25 @@
       "connectedResolved": [
         {
           "label": "Joy",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Happiness",
-          "folder": "HAPPINESS"
+          "folder": "HAPPINESS",
+          "slug": "happiness"
         },
         {
           "label": "Motivation",
-          "folder": "MOTIVATION"
+          "folder": "MOTIVATION",
+          "slug": "motivation"
         }
       ]
     },
     {
       "name": "FEAR",
       "folder": "FEAR",
+      "slug": "fear",
       "description": "An alarmed response to a perceived danger or threat.",
       "connected": [
         "Panic",
@@ -281,21 +309,25 @@
       "connectedResolved": [
         {
           "label": "Panic",
-          "folder": "PANIC"
+          "folder": "PANIC",
+          "slug": "panic"
         },
         {
           "label": "Anguish",
-          "folder": "ANGUISH"
+          "folder": "ANGUISH",
+          "slug": "anguish"
         },
         {
           "label": "Helplessness",
-          "folder": "HELPLESSNESS"
+          "folder": "HELPLESSNESS",
+          "slug": "helplessness"
         }
       ]
     },
     {
       "name": "FURY",
       "folder": "FURY",
+      "slug": "fury",
       "description": "Intense, explosive anger.",
       "connected": [
         "Jealous",
@@ -320,21 +352,25 @@
       "connectedResolved": [
         {
           "label": "Jealous",
-          "folder": "JEALOUS"
+          "folder": "JEALOUS",
+          "slug": "jealous"
         },
         {
           "label": "Anguish",
-          "folder": "ANGUISH"
+          "folder": "ANGUISH",
+          "slug": "anguish"
         },
         {
           "label": "Panic",
-          "folder": "PANIC"
+          "folder": "PANIC",
+          "slug": "panic"
         }
       ]
     },
     {
       "name": "GRATITUDE",
       "folder": "GRATITUDE",
+      "slug": "gratitude",
       "description": "Thankful appreciation for what one has received.",
       "connected": [
         "Joy",
@@ -358,21 +394,25 @@
       "connectedResolved": [
         {
           "label": "Joy",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Love",
-          "folder": "LOVE"
+          "folder": "LOVE",
+          "slug": "love"
         },
         {
           "label": "Kindness",
-          "folder": "KINDNESS"
+          "folder": "KINDNESS",
+          "slug": "kindness"
         }
       ]
     },
     {
       "name": "GUILT",
       "folder": "GUILT",
+      "slug": "guilt",
       "description": "Remorseful unease over a wrong done or a duty unmet.",
       "connected": [
         "Anguish",
@@ -395,21 +435,25 @@
       "connectedResolved": [
         {
           "label": "Anguish",
-          "folder": "ANGUISH"
+          "folder": "ANGUISH",
+          "slug": "anguish"
         },
         {
           "label": "Grief",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Helplessness",
-          "folder": "HELPLESSNESS"
+          "folder": "HELPLESSNESS",
+          "slug": "helplessness"
         }
       ]
     },
     {
       "name": "HAPPINESS",
       "folder": "HAPPINESS",
+      "slug": "happiness",
       "description": "A contented sense of wellbeing and pleasure.",
       "connected": [
         "Joy",
@@ -432,21 +476,25 @@
       "connectedResolved": [
         {
           "label": "Joy",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Gratitude",
-          "folder": "GRATITUDE"
+          "folder": "GRATITUDE",
+          "slug": "gratitude"
         },
         {
           "label": "Excitement",
-          "folder": "EXCITEMENT"
+          "folder": "EXCITEMENT",
+          "slug": "excitement"
         }
       ]
     },
     {
       "name": "HELPLESSNESS",
       "folder": "HELPLESSNESS",
+      "slug": "helplessness",
       "description": "The powerless feeling of being unable to change one's situation.",
       "connected": [
         "Fear",
@@ -470,21 +518,25 @@
       "connectedResolved": [
         {
           "label": "Fear",
-          "folder": "FEAR"
+          "folder": "FEAR",
+          "slug": "fear"
         },
         {
           "label": "Anguish",
-          "folder": "ANGUISH"
+          "folder": "ANGUISH",
+          "slug": "anguish"
         },
         {
           "label": "Numb",
-          "folder": "NUMB"
+          "folder": "NUMB",
+          "slug": "numb"
         }
       ]
     },
     {
       "name": "INTERESTING",
       "folder": "INTERESTING",
+      "slug": "interesting",
       "description": "Curious engagement drawn toward something novel or intriguing.",
       "connected": [
         "Excitement",
@@ -508,21 +560,25 @@
       "connectedResolved": [
         {
           "label": "Excitement",
-          "folder": "EXCITEMENT"
+          "folder": "EXCITEMENT",
+          "slug": "excitement"
         },
         {
           "label": "Awe",
-          "folder": "AWE"
+          "folder": "AWE",
+          "slug": "awe"
         },
         {
           "label": "Motivation",
-          "folder": "MOTIVATION"
+          "folder": "MOTIVATION",
+          "slug": "motivation"
         }
       ]
     },
     {
       "name": "JEALOUS",
       "folder": "JEALOUS",
+      "slug": "jealous",
       "description": "Insecure fear of losing someone or something to a rival.",
       "connected": [
         "Fury",
@@ -545,21 +601,25 @@
       "connectedResolved": [
         {
           "label": "Fury",
-          "folder": "FURY"
+          "folder": "FURY",
+          "slug": "fury"
         },
         {
           "label": "Fear",
-          "folder": "FEAR"
+          "folder": "FEAR",
+          "slug": "fear"
         },
         {
           "label": "Longing",
-          "folder": "LONGING"
+          "folder": "LONGING",
+          "slug": "longing"
         }
       ]
     },
     {
       "name": "KINDHEARTED",
       "folder": "KINDHEARTED",
+      "slug": "kindhearted",
       "description": "A gentle, generous disposition toward others.",
       "connected": [
         "Kindness",
@@ -583,21 +643,25 @@
       "connectedResolved": [
         {
           "label": "Kindness",
-          "folder": "KINDNESS"
+          "folder": "KINDNESS",
+          "slug": "kindness"
         },
         {
           "label": "Caring",
-          "folder": "CARING"
+          "folder": "CARING",
+          "slug": "caring"
         },
         {
           "label": "Love",
-          "folder": "LOVE"
+          "folder": "LOVE",
+          "slug": "love"
         }
       ]
     },
     {
       "name": "KINDNESS",
       "folder": "KINDNESS",
+      "slug": "kindness",
       "description": "Friendly, considerate generosity toward others.",
       "connected": [
         "Caring",
@@ -621,21 +685,25 @@
       "connectedResolved": [
         {
           "label": "Caring",
-          "folder": "CARING"
+          "folder": "CARING",
+          "slug": "caring"
         },
         {
           "label": "Kindhearted",
-          "folder": "KINDHEARTED"
+          "folder": "KINDHEARTED",
+          "slug": "kindhearted"
         },
         {
           "label": "Gratitude",
-          "folder": "GRATITUDE"
+          "folder": "GRATITUDE",
+          "slug": "gratitude"
         }
       ]
     },
     {
       "name": "LONGING",
       "folder": "LONGING",
+      "slug": "longing",
       "description": "A yearning ache for someone or something absent.",
       "connected": [
         "Grief",
@@ -659,21 +727,25 @@
       "connectedResolved": [
         {
           "label": "Grief",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Love",
-          "folder": "LOVE"
+          "folder": "LOVE",
+          "slug": "love"
         },
         {
           "label": "Loss",
-          "folder": null
+          "folder": null,
+          "slug": null
         }
       ]
     },
     {
       "name": "LOVE",
       "folder": "LOVE",
+      "slug": "love",
       "description": "Deep affection and attachment toward someone or something.",
       "connected": [
         "Caring",
@@ -696,21 +768,25 @@
       "connectedResolved": [
         {
           "label": "Caring",
-          "folder": "CARING"
+          "folder": "CARING",
+          "slug": "caring"
         },
         {
           "label": "Gratitude",
-          "folder": "GRATITUDE"
+          "folder": "GRATITUDE",
+          "slug": "gratitude"
         },
         {
           "label": "Longing",
-          "folder": "LONGING"
+          "folder": "LONGING",
+          "slug": "longing"
         }
       ]
     },
     {
       "name": "MOTIVATION",
       "folder": "MOTIVATION",
+      "slug": "motivation",
       "description": "The inner drive that moves one toward action or a goal.",
       "connected": [
         "Determination",
@@ -734,21 +810,25 @@
       "connectedResolved": [
         {
           "label": "Determination",
-          "folder": "DETERMINATION"
+          "folder": "DETERMINATION",
+          "slug": "determination"
         },
         {
           "label": "Ambitious",
-          "folder": "AMBITIOUS"
+          "folder": "AMBITIOUS",
+          "slug": "ambitious"
         },
         {
           "label": "Optimistic",
-          "folder": "OPTIMISTIC"
+          "folder": "OPTIMISTIC",
+          "slug": "optimistic"
         }
       ]
     },
     {
       "name": "NUMB",
       "folder": "NUMB",
+      "slug": "numb",
       "description": "An emotional flatness or absence of feeling.",
       "connected": [
         "Grief",
@@ -772,21 +852,25 @@
       "connectedResolved": [
         {
           "label": "Grief",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Boredom",
-          "folder": "BOREDOM"
+          "folder": "BOREDOM",
+          "slug": "boredom"
         },
         {
           "label": "Helplessness",
-          "folder": "HELPLESSNESS"
+          "folder": "HELPLESSNESS",
+          "slug": "helplessness"
         }
       ]
     },
     {
       "name": "OPTIMISTIC",
       "folder": "OPTIMISTIC",
+      "slug": "optimistic",
       "description": "Hopeful confidence that things will turn out well.",
       "connected": [
         "Joy",
@@ -809,21 +893,25 @@
       "connectedResolved": [
         {
           "label": "Joy",
-          "folder": null
+          "folder": null,
+          "slug": null
         },
         {
           "label": "Motivation",
-          "folder": "MOTIVATION"
+          "folder": "MOTIVATION",
+          "slug": "motivation"
         },
         {
           "label": "Gratitude",
-          "folder": "GRATITUDE"
+          "folder": "GRATITUDE",
+          "slug": "gratitude"
         }
       ]
     },
     {
       "name": "PANIC",
       "folder": "PANIC",
+      "slug": "panic",
       "description": "Sudden, overwhelming fear that disrupts clear thinking.",
       "connected": [
         "Fear",
@@ -847,21 +935,25 @@
       "connectedResolved": [
         {
           "label": "Fear",
-          "folder": "FEAR"
+          "folder": "FEAR",
+          "slug": "fear"
         },
         {
           "label": "Anguish",
-          "folder": "ANGUISH"
+          "folder": "ANGUISH",
+          "slug": "anguish"
         },
         {
           "label": "Helplessness",
-          "folder": "HELPLESSNESS"
+          "folder": "HELPLESSNESS",
+          "slug": "helplessness"
         }
       ]
     },
     {
       "name": "TRUST",
       "folder": "TRUST",
+      "slug": "trust",
       "description": "Confident reliance on someone or something's integrity.",
       "connected": [
         "Love",
@@ -884,15 +976,18 @@
       "connectedResolved": [
         {
           "label": "Love",
-          "folder": "LOVE"
+          "folder": "LOVE",
+          "slug": "love"
         },
         {
           "label": "Caring",
-          "folder": "CARING"
+          "folder": "CARING",
+          "slug": "caring"
         },
         {
           "label": "Gratitude",
-          "folder": "GRATITUDE"
+          "folder": "GRATITUDE",
+          "slug": "gratitude"
         }
       ]
     }

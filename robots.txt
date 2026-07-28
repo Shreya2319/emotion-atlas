@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Block the legacy client-rendered template (superseded by /emotion/<slug>)
+Disallow: /emotion.html
+
+Sitemap: https://www.theemotionatlas.com/sitemap.xml
